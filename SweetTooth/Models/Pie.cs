@@ -13,7 +13,8 @@ namespace SweetTooth.Models
         public string LongDescription { get; set; }
         public decimal Price { get; set; }
         public string ImageUrl { get; set; }
-        public string ImageThumnailUrl { get; set; }
+        public string ImageThumbnailUrl { get; set; }
         public bool IsPieOfTheWeek { get; set; }
+        public bool InStock { get; set; }
     }
 }
